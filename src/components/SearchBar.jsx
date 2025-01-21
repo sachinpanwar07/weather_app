@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import axios from "axios";
-import "../styles/searchBar.css";
 
+import "../styles/searchbar.css";
 import searchicon from '../assets/image/searchicon.png'
 function SearchBar({search}) {
   const [city, setCity] = useState("");
