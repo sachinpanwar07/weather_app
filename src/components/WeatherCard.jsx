@@ -12,8 +12,8 @@ function WeatherCard() {
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const apikey =import.meta.env.VITE_WEATHER_API_KEY;
-
+  // const apikey =import.meta.env.VITE_WEATHER_API_KEY;
+  const apikey="b6a8a8aeec27d05d07b94e18880f963b"
   const handelSearch = async (cityName) => {
     if (!cityName) {
       alert("Enter City Name");
