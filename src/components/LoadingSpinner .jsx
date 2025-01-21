@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import '../styles/LoadingSpinner.css'
+import '../styles/loadingSpinner.css'
 function LoadingSpinner () {
   return (
     <motion.div
